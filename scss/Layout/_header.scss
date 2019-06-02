@@ -5,7 +5,7 @@ header{
     right: 0;
     z-index: 9999;
     width: 100vw;
-    max-width: 1300px;
+    max-width: 1400px;
     left: 50%;
     transform: translate(-50%,0%);
     .navbar{
@@ -65,7 +65,7 @@ header{
                     .nav-item{
                         .dropdown-menu{
                             width: 100vw;
-                            max-width: 1300px;
+                            max-width: 1400px;
                             margin: 0 auto;
                             padding: 0;
                             display: block;
@@ -275,7 +275,7 @@ header{
         position: unset;
         .modal-content{
             width: 100vw;
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             border-radius: 0;
