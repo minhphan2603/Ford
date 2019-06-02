@@ -206,75 +206,6 @@ header {
       header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .nav-link:focus span {
         color: black; }
 
-.modal#searchModal {
-  z-index: 10000; }
-  .modal#searchModal .modal-dialog {
-    max-width: unset;
-    position: unset; }
-    .modal#searchModal .modal-dialog .modal-content {
-      width: 100vw;
-      position: absolute;
-      top: 0;
-      left: 0;
-      border-radius: 0; }
-      .modal#searchModal .modal-dialog .modal-content .modal-header {
-        border-bottom: none; }
-        .modal#searchModal .modal-dialog .modal-content .modal-header .close {
-          font-size: 44px;
-          font-weight: 100; }
-      .modal#searchModal .modal-dialog .modal-content .modal-body {
-        margin: 0 60px;
-        margin-bottom: 70px; }
-        .modal#searchModal .modal-dialog .modal-content .modal-body .modal-title {
-          font-size: 13px;
-          color: #A7A7A7;
-          margin-bottom: 2px;
-          margin-left: 10px; }
-          .modal#searchModal .modal-dialog .modal-content .modal-body .modal-title i {
-            font-size: 24px;
-            margin-right: 10px; }
-        .modal#searchModal .modal-dialog .modal-content .modal-body .input-search {
-          border: 1px solid #3C96C5;
-          width: 100%;
-          height: 75px;
-          align-items: center;
-          background-color: white; }
-          .modal#searchModal .modal-dialog .modal-content .modal-body .input-search input {
-            width: 95%;
-            height: 73px;
-            border: none;
-            font-size: 40px;
-            font-weight: 900;
-            outline: none; }
-          .modal#searchModal .modal-dialog .modal-content .modal-body .input-search i {
-            font-size: 34px;
-            font-weight: 100;
-            color: #3C96C5; }
-          .modal#searchModal .modal-dialog .modal-content .modal-body .input-search:hover {
-            border: none; }
-      .modal#searchModal .modal-dialog .modal-content .modal-footer {
-        border-top: none;
-        position: absolute;
-        top: 100%;
-        left: 0%; }
-        .modal#searchModal .modal-dialog .modal-content .modal-footer div:nth-child(2) {
-          border-left: 1px solid #A7A7A7; }
-        .modal#searchModal .modal-dialog .modal-content .modal-footer p {
-          color: white;
-          font-size: 20px; }
-        .modal#searchModal .modal-dialog .modal-content .modal-footer ul {
-          list-style: none; }
-          .modal#searchModal .modal-dialog .modal-content .modal-footer ul li {
-            margin-bottom: 25px; }
-            .modal#searchModal .modal-dialog .modal-content .modal-footer ul li a {
-              font-size: 13px;
-              color: #3C96C5;
-              text-decoration: none; }
-
-.modal-backdrop.show {
-  background-color: black;
-  opacity: 0.9; }
-
 @font-face {
   font-family: 'Ford Antenna Extra Light';
   src: url("FordAntenna-ExtraLight.eot");
@@ -282,4 +213,4 @@ header {
   font-weight: normal;
   font-style: normal; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
