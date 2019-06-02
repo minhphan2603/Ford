@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ford Antenna Extra Light',Arial, Helvetica, sans-serif;
+  font-weight: 900; }
+
+body {
+  max-width: 1300px;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100vw;
+  max-width: 1300px;
+  left: 50%;
+  transform: translate(-50%, 0%); }
+  header .navbar {
+    position: relative;
+    background-color: white; }
+    header .navbar .navbar-brand img {
+      width: 85px;
+      height: 85px; }
+    @media screen and (max-width: 800px) {
+      header .navbar .navbar-collapse {
+        font-size: 13px; } }
+    header .navbar .navbar-collapse .navbar-nav {
+      border: none; }
+      header .navbar .navbar-collapse .navbar-nav .nav-item {
+        margin: 0px 7px; }
+        header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+          display: block;
+          border: none;
+          color: #3C96C5;
+          padding: 28px 10px; }
+          @media screen and (max-width: 800px) {
+            header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+              padding: 28px 5px; } }
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
+            font-size: 24px;
+            transform: translateY(4px);
+            margin-right: 10px; }
+            @media screen and (max-width: 800px) {
+              header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link i {
+                font-size: 20px; } }
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link span {
+            font-size: 13px;
+            display: none; }
+            @media screen and (min-width: 1100px) {
+              header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link span {
+                display: inline; } }
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
+            display: none; }
+        header .navbar .navbar-collapse .navbar-nav .nav-item.show {
+          outline: 1px solid #3C96C5; }
+        header .navbar .navbar-collapse .navbar-nav .nav-item button:focus {
+          outline: 1px solid #3C96C5;
+          box-shadow: none; }
+      header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu {
+        width: 100vw;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        position: fixed;
+        top: 86px;
+        left: 50%;
+        transform: translate(-50%, -103%);
+        z-index: -1;
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+        transition: transform 0.5s linear; }
+        header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu.show {
+          transform: translate(-50%, 0); }
+        header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs {
+          background-color: #F7F7F7; }
+          header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item {
+            position: relative; }
+            header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item .nav-link {
+              font-size: 14px;
+              color: #3C96C5;
+              padding: 20px 10px;
+              border-radius: 0; }
+              header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item .nav-link::after {
+                content: '';
+                display: block;
+                width: 0;
+                position: absolute;
+                bottom: 0;
+                left: -5%;
+                height: 3px;
+                background-color: #3C96C5;
+                transition: width 0.3s linear; }
+              header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item .nav-link:hover::after {
+                width: 110%; }
+              header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item .nav-link:focus {
+                border-left: 1px solid #333333;
+                border-right: 1px solid #333333; }
+              header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item .nav-link.active {
+                color: #333333;
+                background-color: #F7F7F7; }
+                header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .nav-tabs .nav-item .nav-link.active::after {
+                  width: 90%;
+                  left: 5%;
+                  background-color: #333333; }
+        header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .tab-content .active {
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          padding: 20px;
+          margin: 25px 50px; }
+          header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .tab-content .active .card {
+            width: 120px;
+            margin: 0 25px; }
+            header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .tab-content .active .card h6 {
+              font-size: 15px;
+              color: #3C96C5;
+              margin: 0; }
+            header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .tab-content .active .card p {
+              font-size: 14px;
+              color: #868686; }
+        header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .menu-footer {
+          border-top: 1px solid #A7A7A7; }
+          header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .menu-footer button {
+            color: #3C96C5;
+            border: 1px solid #3C96C5;
+            border-radius: 0;
+            padding: 10px 38px; }
+      header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item::after {
+        content: '';
+        display: none;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        right: -100%;
+        z-index: -2;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.5; }
+      header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item.show::after {
+        display: block; }
+      header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item.show .nav-link {
+        color: black; }
+      header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .container.d-flex {
+        max-width: 100vw;
+        width: 100%;
+        padding: 0 28px 10px 78px;
+        margin: 50px 0;
+        border-bottom: 1px solid #A7A7A7; }
+        header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .container.d-flex .d-flex.flex-column {
+          margin-right: 25px; }
+          header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .container.d-flex .d-flex.flex-column * {
+            padding-left: 0; }
+          header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .container.d-flex .d-flex.flex-column .dropdown-item-text {
+            font-size: 21px;
+            color: #6F6F6F;
+            border-bottom: 1px solid #A7A7A7;
+            padding-bottom: 10px;
+            margin-bottom: 10px; }
+          header .navbar .navbar-collapse .navbar-nav.nav-left .nav-item .dropdown-menu .container.d-flex .d-flex.flex-column .dropdown-item {
+            font-size: 14px;
+            color: #3C96C5;
+            padding: 10px 0;
+            font-weight: 600; }
+      header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item::after {
+        content: '';
+        display: none;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        right: -100%;
+        z-index: -2;
+        height: 100vh;
+        background-color: black;
+        opacity: 0.5; }
+      header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item.show::after {
+        display: block; }
+      header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu {
+        border-radius: 0; }
+        header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu .dropdown-item {
+          font-size: 13px;
+          color: #3C96C5;
+          font-weight: bold; }
+          header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu .dropdown-item:nth-child(1) {
+            border-bottom: 1px solid #A7A7A7; }
+        header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu.signin {
+          left: unset;
+          right: 0;
+          padding: 0 28px; }
+          header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu.signin .dropdown-item {
+            padding: 10px 78px 10px 10px; }
+        header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu.language {
+          min-width: unset;
+          padding: 5px 20px; }
+          header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu.language .dropdown-item {
+            padding: 10px 5px; }
+            header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .dropdown-menu.language .dropdown-item:nth-child(1) {
+              color: #6F6F6F; }
+      header .navbar .navbar-collapse .navbar-nav.nav-right .nav-item .nav-link:focus span {
+        color: black; }
+
+@font-face {
+  font-family: 'Ford Antenna Extra Light';
+  src: url("FordAntenna-ExtraLight.eot");
+  src: url("FordAntenna-ExtraLight.eot?#iefix") format("embedded-opentype"), url("FordAntenna-ExtraLight.woff") format("woff"), url("FordAntenna-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */
