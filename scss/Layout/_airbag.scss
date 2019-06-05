@@ -1,0 +1,45 @@
+.airbag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: $color-white-cream;
+    color: $color-red-0;
+    .airbag-content{
+        text-align: center;
+        h1{
+            font-weight: 900;
+        }
+        button{
+            width: 90%;
+            height: 50px;
+            margin-top: $mg-2;
+            color: white;
+            background-color: $color-red-0;
+            border: 1px solid $color-red-0;
+            font-weight: 100;
+            font-size: $fs-1 + 2;
+            &:hover{
+                background-color: white;
+                color: $color-red-0;
+            }
+        }
+    }
+}
+
+.disclosure{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-size: $fs-1;
+        font-weight: 500;
+        color: $color-blue-0;
+        margin-right: $mg-1 - 2;
+        &:nth-child(2){
+            transform: rotate(90deg);
+            font-size: $fs-2;
+        }
+    }
+}

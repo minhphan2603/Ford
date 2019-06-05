@@ -1,0 +1,59 @@
+.sales{
+    margin-top: $mg-3 + 50px;
+    .offer{
+        cursor: pointer;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .offer-content{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            text-align: center;
+            h1{
+                font-weight: 900;
+            }
+            p{
+                margin-top: $mg-3;
+                font-size: $fs-1 + 1; 
+                font-weight: 100;
+                span{
+                    margin-left: $mg-1;
+                    font-size: $fs-2 -  5;
+                    margin-top: $mg-1;
+                }
+            }
+        }
+    }
+    .build-price{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .build-price-content{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: white;
+            text-align: center;
+            h1{
+                font-weight: 900;
+            }
+            button{
+                width: 100%;
+                height: 50px;
+                color: white;
+                background-color: $color-blue-0;
+                border: 1px solid $color-blue-0;
+                font-weight: 100;
+                &:hover{
+                    border-color: black;
+                }
+            }
+        }
+    }
+}
