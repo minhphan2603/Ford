@@ -1,0 +1,38 @@
+.video{
+    margin-top: $mg-3 + 100px;
+    .video-title{
+        text-align: center;
+        h2{
+            font-weight: 900;
+        }
+        .content{
+            margin: $mg-2;
+            p{
+                font-size: $fs-1 + 2px;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .video-content{
+        position: relative;
+        .video-img{
+            margin: $mg-3 auto;
+            img{
+                width: 80%;
+                height: 100%;
+            }
+        }
+        .play{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: $fs-4 + 60px;
+            color: white;
+            i{
+                font-weight: 100;
+            }
+        }
+    }
+}

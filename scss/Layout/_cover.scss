@@ -1,0 +1,17 @@
+.cover {
+    margin-top: 85px;
+    background-image: url(../img/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 650px;
+    cursor: pointer;
+    .cover-title{
+        text-align: center;
+        color: white;
+        padding-top: $mg-2;
+        h1{
+            font-weight: 900;
+        }
+    }
+}

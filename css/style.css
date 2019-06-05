@@ -6,7 +6,7 @@
   font-weight: 900; }
 
 body {
-  max-width: 1300px;
+  max-width: 1400px;
   height: 100vh;
   padding: 0;
   margin: 0 auto; }
@@ -273,7 +273,7 @@ header {
 
 .modal-backdrop.show {
   background-color: black;
-  opacity: 0.9; }
+  opacity: 0.8; }
 
 @font-face {
   font-family: 'Ford Antenna Extra Light';
@@ -281,5 +281,76 @@ header {
   src: url("FordAntenna-ExtraLight.eot?#iefix") format("embedded-opentype"), url("FordAntenna-ExtraLight.woff") format("woff"), url("FordAntenna-ExtraLight.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+.cover {
+  margin-top: 85px;
+  background-image: url(../img/cover.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 650px;
+  cursor: pointer; }
+  .cover .cover-title {
+    text-align: center;
+    color: white;
+    padding-top: 25px; }
+    .cover .cover-title h1 {
+      font-weight: 900; }
+
+.intro {
+  background-image: url(../img/intro.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 650px;
+  cursor: pointer; }
+  @media screen and (max-width: 1300px) {
+    .intro {
+      height: 50vh; } }
+  .intro .content {
+    color: #6F6F6F;
+    text-align: center;
+    margin-top: 50px; }
+    .intro .content h1 {
+      font-weight: 900; }
+    .intro .content p {
+      font-size: 20px; }
+    .intro .content button {
+      width: 250px;
+      height: 45px;
+      background-color: #3C96C5;
+      color: white;
+      border: 1px solid #3C96C5; }
+  .intro:hover .content button {
+    background-color: white;
+    color: #3C96C5; }
+
+.video {
+  margin-top: 150px; }
+  .video .video-title {
+    text-align: center; }
+    .video .video-title h2 {
+      font-weight: 900; }
+    .video .video-title .content {
+      margin: 25px; }
+      .video .video-title .content p {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 0; }
+  .video .video-content {
+    position: relative; }
+    .video .video-content .video-img {
+      margin: 50px auto; }
+      .video .video-content .video-img img {
+        width: 80%;
+        height: 100%; }
+    .video .video-content .play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      color: white; }
+      .video .video-content .play i {
+        font-weight: 100; }
 
 /*# sourceMappingURL=style.css.map */
